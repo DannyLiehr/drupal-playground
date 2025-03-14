@@ -1,0 +1,30 @@
+*~
+*.orig
+*.rej
+*.patch
+*.diff
+LICENSE.txt
+.directory
+vendor/
+
+# Ignore Drupal core and contributed modules, themes, and libraries
+web/core
+web/modules/contrib
+web/themes/contrib
+web/libraries
+
+# Ignore compiled assets
+web/sites/*/files/css
+web/sites/*/files/js
+web/sites/*/files/styles
+web/sites/*/files/translations
+web/sites/*/files/tmp
+
+# Ignore configuration files
+web/sites/*/settings*.php
+web/sites/*/services*.yml
+
+# Ignore temporary files
+web/sites/*/files/
+web/sites/*/private/
+web/sites/*/tmp/
